@@ -1,0 +1,41 @@
+<!--
+File: index.html
+GUI Assignment: This assigment is all about scrabble game.
+Parth Patel, UMass Lowell Computer Science, parth_patel8@student.uml.edu
+Copyright (c) 2021 by Parth Patel. All rights reserved. May be freely copied or excerpted for educational purposes with credit to the author.
+updated by PP August 15, 2021 at 1:20PM.
+
+The above template/document was created by: Wenjin Zhou, UMass Lowell Computer Science, wzhou@cs.uml.edu
+Copyright (c) 2021 by Wenjin.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>TheScrabbleGame</title>
+    <link rel="stylesheet" href="Styling.css">
+</head>
+<body>
+    <h1> Lets Play Scrabble </h1>
+    <!-- This is to display score,tiles,totalscore-->
+    <div id="DisplayResults">
+        <div class="label">TotalScore </div>
+        <div id="TotalScore">0</div>
+        <div class="label" >Score </div> 
+        <div id="Score" >0 </div> 
+    </div>
+    <!-- The Neceesities for Displaying -->
+    <div id="ScrabbleBoard"></div>
+    <div id="RackForLetters" ></div>
+    <!-- The Needed Buttons to check things and making it work-->
+    <div class="Buttons">
+        <button id="Reset" onClick="ResetEverything()" type="button" >RESETALL</button>
+        <button id="Submit" onClick="Score()"type="button" >Submit</button>
+    </div>
+<!-- The Java script code to make tiles do stuff-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="everything.js"></script> </script>
+</body>
+</html>
